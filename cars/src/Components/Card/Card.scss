@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid purple;
+    width: 25%;
+    h1{
+        font-size: 1.6rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    align-items: center;
+    margin: 2% 0;
+}
+
+a{
+    width: 100%;
+    text-decoration: none;
+}
