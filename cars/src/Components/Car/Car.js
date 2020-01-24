@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './Car.scss'
+import '../Card/Card.scss'
 
 import {useParams} from 'react-router-dom';
 
@@ -19,11 +20,12 @@ import {useParams} from 'react-router-dom';
     }
 
     return (
+        <div className="cardWrapper">
         <div className="card">
         <h>{car.make}</h>
         <p>{car.model}</p>
         <p>${car.price}</p>    
-    </div>
+    </div></div>
     )
 }
 

@@ -9,11 +9,15 @@ function Card({car}) {
     }
 
     return (
-        <div className="card" key={car.id}>
-            <h>{car.make}</h>
+         <div className="cardWrapper">
+             <div className="card" key={car.id}>
+           
+            <h1>{car.make}</h1>
+            
             <p>{car.model}</p>
             <p>${car.price}</p> 
 
+        </div>
         </div>
     )
 }

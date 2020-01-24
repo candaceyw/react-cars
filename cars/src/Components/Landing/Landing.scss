@@ -1,10 +1,116 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .car-section{
-    display: felx;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    padding: 3% 4%;
+    margin: auto;
 
     a{
         display: flex;
         
     }
 }
+
+.newCardWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.NewCards{
+  
+    margin: 2%;
+}
+
+.clearButton {
+    background: rgb(54, 161, 211);
+    color: white;
+    width: 400px;
+    margin: 20px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+
+
+}
+
+
+.search-form{
+    margin: 2%;
+    min-height: vh;
+    width: 350%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.search-bar{
+    width: 200%;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+
+  
+  }
+  .search-bar::placeholder {
+    color: grey;
+    font-size: 1.5em;
+    padding: 1%;
+  }
+  
+  .search-button {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    height: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+
+
+  }
+
+  i.fas.fa-search{
+      font-size: 1.2rem;
+      color: grey;
+  }
+
+  .invButton {
+      background: rgb(139, 139, 139);
+      color: white;
+      width: 250px;
+      margin: 20px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      font-size: 1rem;
+
+      box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+      0 2px 2px rgba(0,0,0,0.11), 
+      0 4px 4px rgba(0,0,0,0.11), 
+      0 8px 8px rgba(0,0,0,0.11), 
+      0 16px 16px rgba(0,0,0,0.11), 
+      0 32px 32px rgba(0,0,0,0.11);
+  }

@@ -1,5 +1,14 @@
+body{
+  background-image: url('./images/nighttraffic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .App-logo {
