@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3e128ff-41e5-4e6f-9f17-15d402a5e12f/deploy-status)](https://app.netlify.com/sites/cars-reactapp/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
