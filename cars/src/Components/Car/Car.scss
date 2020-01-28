@@ -1,14 +1,61 @@
-.card {
+.car-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+   .loading{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 2;
-    color: black;
-    padding: 2%;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    margin: auto;
+    width: 25%;
+    height: 100vh;
+    border: 2px solid red;
 }
 
+.car{
+    padding: 2%;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+    width: 50%;
+    border-radius: 10px;
+    h1{
+        color: rgb(21, 78, 104);
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+    align-items: center;
+    margin: auto;
+
+   
+}
+
+img {
+    width: 80%;
+    margin: 2%;
+    border-radius: 10px;
+
+}
+.loading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.price{
+    font-weight: bold;
+    color: red;
+}

@@ -1,3 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    p{
+        color: black;
+    }
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -16,13 +23,15 @@
 
 .newCardWrapper{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
+
+
 .NewCards{
   
-    margin: 2%;
+    margin: 1%;
+    width: 30%;
 }
 
 .clearButton {

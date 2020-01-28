@@ -3,7 +3,6 @@ import {data} from './data';
 import './App.scss';
 import {Route} from 'react-router-dom';
 import Landing from './Components/Landing/Landing';
-import Card from './Components/Card/Card';
 import Form from './Components/Form/Form';
 import Car from './Components/Car/Car'
 
